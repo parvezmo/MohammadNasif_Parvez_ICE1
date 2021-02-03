@@ -42,5 +42,9 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
+    //Allows the array to be read properly
+    public String toString(){
+        return value + " of " + suit;
+    }
 
 }
